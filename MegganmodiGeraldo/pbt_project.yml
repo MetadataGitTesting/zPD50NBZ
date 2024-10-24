@@ -1,0 +1,88 @@
+name: demetrius.russel
+description: array
+version: 0.0.1
+author: xoerfdt4.eextcmfs@fp6otada.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: demetriusrussel
+  parentArtefactID: xoerfdt4eextcmfsfp6otadacomteam
+  buildSystem: maven
+  author: null
+  createdAt: '2024-10-24 21:58:58'
+pipelines:
+  pipelines/conflictedPipelineCode:
+    name: conflictedPipelineCode
+    description: null
+    author: xoerfdt4.eextcmfs@fp6otada.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-10-24 21:58:58'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/conflictedPipelineDescription:
+    name: conflictedPipelineDescription
+    description: null
+    author: xoerfdt4.eextcmfs@fp6otada.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-10-24 21:58:58'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/badPipeline:
+    name: badPipeline
+    description: null
+    author: xoerfdt4.eextcmfs@fp6otada.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-10-24 21:58:58'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-10-24 21:58:58'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-10-24T21:58:58.229008Z'
+  name: plibMaven
+  version: 8.4.0-SNAPSHOT
+  id: '1554099124'
+  createdAt: '2024-10-24T21:58:58.229008Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
